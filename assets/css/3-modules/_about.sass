@@ -2,15 +2,59 @@ h3
   @extend %small-bold
   color: $accent
   text-align: center
+  padding: 100px 0 30px
 
 .face-lockup
   max-width: 780px
   +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-around)
 
   .face-img
     +size(200px)
     background: rgba(204, 204, 204, 0.3)
+    order: 3
 
   [class^="icon-"]
     +size(100px)
     background: rgba(204, 204, 204, 0.3)
+    border-radius: 50%
+
+    &.icon-pencil
+      order: 1
+    &.icon-mouse
+      order: 2
+    &.icon-browser
+      order: 4
+    &.icon-video
+      order: 5
+
+@media screen and (max-width: 650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background-position: center center
+      background-repeat: no-repeat
+      width: auto
+      margin-bottom: 30px
+
+    [class^="icon-"]
+      margin: 10px
+
+
+
+.blurb
+  max-width: 620px
+  padding: 0 15px
+  margin: 50px auto
+  font:
+    size: 24px
+    weight: 300
+  text-align: center
