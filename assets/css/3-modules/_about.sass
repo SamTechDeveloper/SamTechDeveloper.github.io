@@ -13,13 +13,15 @@ h3
 
   .face-img
     +size(200px)
-    background: rgba(204, 204, 204, 0.3)
+    background: url(../img/face.jpg) top
     order: 3
 
   [class^="icon-"]
     +size(100px)
     background: rgba(204, 204, 204, 0.3)
     border-radius: 50%
+    path
+      fill: $accent-dark
 
     &.icon-pencil
       order: 1
