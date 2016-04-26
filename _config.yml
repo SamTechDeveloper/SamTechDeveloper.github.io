@@ -10,6 +10,10 @@
  # email: samtechdeveloper@gmail.com
  description: "Thinker // Developer // Geek"
 
+ logo: logo.svg
+
+ bg-img: 1.jpg
+ 
  avatar: face.jpg
 
  blurb: <p><strong>Sameer specializes in various technical skills. </strong>Most of the things he make are web applications and designs. He also puts efforts into learning latest technologies and crafting next-level skills and develop <a href="http://github.com/SamTechDeveloper">projects</a> with them.</p>
@@ -26,4 +30,4 @@
  permalink: pretty
  sass:
   sass_dir: /assets/css/
-  style: compressed
+  style: pretty
