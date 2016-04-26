@@ -9,6 +9,10 @@
  title: Artists Theme
  # email: samtechdeveloper@gmail.com
  description: "Thinker // Developer // Geek"
+
+ avatar: face.jpg
+
+ blurb: <p><strong>Sameer specializes in various technical skills. </strong>Most of the things he make are web applications and designs. He also puts efforts into learning latest technologies and crafting next-level skills and develop <a href="http://github.com/SamTechDeveloper">projects</a> with them.</p>
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
