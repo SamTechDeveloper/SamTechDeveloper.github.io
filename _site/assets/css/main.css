@@ -182,8 +182,7 @@ a {
   color: #a86a31;
   text-decoration: none;
   outline: 0; }
-a:hover, a:focus {
-  font-size: 34px;
+a:hover {
   color: #d49d6b; }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
