@@ -1,0 +1,40 @@
+# Data file of User
+
+ # Portfolio settings
+ title: Artists Theme
+ email: samtechdeveloper@gmail.com
+ description: "Thinker // Developer // Researcher"
+
+ # Menu Item List
+ menu:
+   - {name: About me, url: '#about-me'}
+   - {name: Work, url: '#work'}
+   - {name: Clients, url: '#clients'}
+   - {name: Contact, url: '#contact'}
+
+ # Skills set
+ skills:
+   - {name: Communication, value: 8}
+   - {name: Organization, value: 7}
+   - {name: Learning, value: 9}
+   - {name: Teaching, value: 6}
+   - {name: Planning, value: 8}
+   - {name: Visual Design, value: 8}
+   - {name: UX Design, value: 7}
+   - {name: Programming, value: 8}
+   - {name: Research, value: 9}
+
+
+ # Change the sites default images, logo and content here
+ logo: 'logo2.svg'
+ bg-img: '1.jpg'
+ avatar: 'face.jpg'
+
+ blurb: <p><strong>Sameer specializes in various technical skills. </strong>Most of the things he make are web applications and designs. He also puts efforts into learning latest technologies and crafting next-level skills and develop <a href="http://github.com/SamTechDeveloper">projects</a> with them.</p>
+
+ # Work Section
+ projects:
+   - {name: Portfolio, folder: Project-1}
+   - {name: Gemstore, folder: Project-2}
+   - {name: Music Therapy, folder: Project-3}
+   - {name: Bootstrap Grid, folder: Project-4} 
