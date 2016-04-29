@@ -207,7 +207,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 h3 {
-  color: #e1c184;
+  color: #ecad35;
   text-align: center;
   padding: 100px 0 30px; }
 
@@ -376,7 +376,7 @@ footer .lockup {
         display: inline-block;
         height: 14px;
         width: 14px;
-        background-color: #e1c184;
+        background-color: #a86a31;
         margin-right: 8px;
         border-radius: 50%; }
         .skill-lockup .skill-unit .skill-icons span:after {
@@ -414,7 +414,10 @@ footer .lockup {
     overflow: hidden;
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    perspective: 300px; }
     @media screen and (max-width: 760px) {
       .thumb-container .thumb-unit {
         width: 50%;
@@ -427,9 +430,9 @@ footer .lockup {
       height: 100%;
       background: rgba(168, 106, 49, 0.8);
       text-align: center;
-      -webkit-transition: all 0.15s ease-out 0s;
-      -moz-transition: all 0.15s ease-out 0s;
-      transition: all 0.15s ease-out 0s;
+      -webkit-transition: 1000ms;
+      -moz-transition: 1000ms;
+      transition: 1000ms;
       display: -webkit-box;
       display: -moz-box;
       display: box;
@@ -454,7 +457,18 @@ footer .lockup {
       -ms-justify-content: space-around;
       -o-justify-content: space-around;
       justify-content: space-around;
-      -ms-flex-pack: distribute; }
+      -ms-flex-pack: distribute;
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      -o-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform-origin: center bottom;
+      -moz-transform-origin: center bottom;
+      -ms-transform-origin: center bottom;
+      -o-transform-origin: center bottom;
+      transform-origin: center bottom;
+      opacity: 0; }
       .thumb-container .thumb-unit .thumb-overlay strong {
         display: block;
         padding: 0px 20px;
@@ -464,7 +478,10 @@ footer .lockup {
         line-height: 1.2;
         text-transform: uppercase; }
     .thumb-container .thumb-unit:hover .thumb-overlay {
-      position: absolute;
       top: 0%;
-      right: 0px;
-      left: 0px; }
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      -o-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      opacity: 1; }

@@ -18,6 +18,7 @@
       position: center top
       repeat: no-repeat
       size: cover
+    +perspective(300px)
 
     @media screen and (max-width: 760px)
       width: 50%
@@ -28,10 +29,13 @@
       height: 100%
       background: fade-out($accent-dark, 0.2)
       text-align: center
-      +transition
+      +transition(1000ms)
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
+      +transform(rotateX(90deg))
+      +transform-origin(center bottom)
+      opacity: 0
 
       strong
         display: block
@@ -44,4 +48,6 @@
         text-transform: uppercase
 
     &:hover .thumb-overlay
-      +position(absolute, 0% 0px null 0px)
+      top: 0%
+      +transform(rotateX(0deg))
+      opacity: 1
