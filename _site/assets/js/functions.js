@@ -2,6 +2,8 @@ $( document ).ready(function() {
 
   // Get started!
   smoothScroll(300);
+  workBelt();
+
 });
 
 function smoothScroll(duration){
@@ -15,4 +17,18 @@ function smoothScroll(duration){
       }, duration);
     }
   });
+}
+
+function workBelt() {
+
+  $('.thumb-unit').click(function () {
+    $('.work-belt').css('left', '-100%');
+    $('.work-container').show();
+  });
+
+  $('.work-return').click(function () {
+    $('.work-belt').css('left', '0%');
+    $('.work-container').hide(800);
+  });
+
 }

@@ -395,12 +395,27 @@ footer .lockup {
   background: #ccc; }
 
 .alt-section {
-  background: #cdd5de; }
+  background: #cdd5de;
+  padding-bottom: 100px; }
+
+.section-work {
+  overflow-x: hidden; }
+
+.work-belt {
+  width: 200%;
+  position: relative;
+  left: 0%;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  transition: all 800ms; }
+
+.thumb-wrap, .work-wrap {
+  width: 50%;
+  float: left; }
 
 .thumb-container {
   max-width: 960px;
-  margin: 0 auto;
-  padding-bottom: 100px; }
+  margin: 0px auto; }
   .thumb-container::after {
     clear: both;
     content: "";
@@ -412,6 +427,7 @@ footer .lockup {
     position: relative;
     padding-top: 16%;
     overflow: hidden;
+    cursor: pointer;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,9 +446,9 @@ footer .lockup {
       height: 100%;
       background: rgba(168, 106, 49, 0.8);
       text-align: center;
-      -webkit-transition: 1000ms;
-      -moz-transition: 1000ms;
-      transition: 1000ms;
+      -webkit-transition: 800ms;
+      -moz-transition: 800ms;
+      transition: 800ms;
       display: -webkit-box;
       display: -moz-box;
       display: box;
@@ -485,3 +501,37 @@ footer .lockup {
       -o-transform: rotateX(0deg);
       transform: rotateX(0deg);
       opacity: 1; }
+
+.work-container {
+  max-width: 600px;
+  margin: 0px auto;
+  position: relative;
+  display: none; }
+  .work-container h4 {
+    color: #ecad35;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 0 0 20px; }
+  .work-container img {
+    max-width: 100%;
+    margin-bottom: 20px; }
+  .work-container .work-return {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+    position: absolute;
+    top: -8px;
+    left: -60px; }
+    .work-container .work-return path {
+      fill: rgba(0, 0, 0, 0.4); }
+    .work-container .work-return:hover {
+      opacity: 1; }
+
+@media (max-width: 740px) {
+  .work-container .work-return {
+    left: 0px; }
+  .work-container h4 {
+    margin-left: 60px; } }
