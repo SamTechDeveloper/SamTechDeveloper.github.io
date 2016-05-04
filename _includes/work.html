@@ -8,7 +8,7 @@
       <div class="thumb-container">
 
       {% for project in site.data.portfolio.projects %}
-      <div class="thumb-unit" style="background-image: url(/assets/img/work/{{project.folder}}/thumb.png)">
+      <div class="thumb-unit" data-folder="{{project.folder}}" style="background-image: url(/assets/img/work/{{project.folder}}/thumb.png)">
         <div class="thumb-overlay">
           <strong>{{project.name}}</strong>
 
@@ -22,16 +22,8 @@
     <div class="work-wrap">
       <div class="work-container">
         <div class="work-return">{% include icons/icon-back.html %}</div>
-        <h4>Do Work</h4>
-        <div style="width: 600px; height: 500px; background: #ccc"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        <div style="width: 600px; height: 500px; background: #ccc"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem tempora, in dolores repudiandae voluptatibus commodi soluta nulla assumenda obcaecati aperiam ipsam itaque maxime illum quaerat suscipit vel blanditiis voluptate velit.</p>
-
-        <div style="width: 600px; height: 500px; background: #ccc"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae eum, optio facere. Accusamus voluptates ab, ad eaque beatae deleniti expedita doloremque, iusto aliquam enim illum quibusdam debitis dolores, fugit, neque?</p>
-
+        <h4 class="project-title">Portfolio</h4>
+        <div class="project-load"></div>
       </div>
     </div>
 
