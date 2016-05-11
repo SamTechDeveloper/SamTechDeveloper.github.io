@@ -38,3 +38,14 @@
    - {name: Gemstore, folder: Project-2}
    - {name: Music Therapy, folder: Project-3}
    - {name: Bootstrap Grid, folder: Project-4}
+
+ # Clients Section
+ clients:
+   - {avatar: 'face.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', logo: 'logo.png',
+      quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'}
+   - {avatar: 'face2.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', logo: 'logo4.png',
+      quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'}
+   - {avatar: 'face3.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', logo: 'logo.png',
+      quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'}
+   - {avatar: 'face4.jpg', name: 'Scott Summers', title: 'Director of Design, Quebec Int.', logo: 'logo3.png',
+      quote: '<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>'}
