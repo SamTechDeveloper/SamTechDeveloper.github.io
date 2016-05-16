@@ -1,12 +1,12 @@
 header
-	height: 450px
 	@extend %bg-img
 	background-position: 30px 20px, 50% 50%
+	padding-bottom: 50px
 
 
 	nav
 		float: right
-		margin: 30px 30px 0 80px
+		padding: 30px 30px 0 0
 
 		a
 			@extend %small-bold
@@ -18,7 +18,6 @@ header
 				color: rgba(0,0,0,1)
 
 	h1
-		width: auto
 		text-align: center
 		font:
 			size: 72px
@@ -26,14 +25,14 @@ header
 		color: white
 		text-transform: uppercase
 		letter-spacing: 0.05em
+		margin-bottom: 20px
+		clear: both
+		padding-top: 100px
 
 		span
 			display: inline-block
 			padding: 0.2em 0.5em
 			border: white solid 10px
-		margin-bottom: 20px
-		clear: both
-		padding-top: 100px
 
 	.kicker
 		@extend %small-bold
@@ -41,3 +40,16 @@ header
 		letter-spacing: 0.05em
 		line-height: 1
 		color: white
+
+@media (max-width: 640px)
+	header
+		background:
+			position: 50% 20px, 50% 50%
+
+		nav
+			float: none
+			text-align: center
+			padding-top: 90px
+
+		h1
+			padding-top: 0px

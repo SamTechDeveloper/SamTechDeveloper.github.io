@@ -44,7 +44,7 @@
       height: 100%
       background: fade-out($accent-dark, 0.2)
       text-align: center
-      +transition(800ms)
+      +transition(400ms)
       +display(flex)
       +align-items(center)
       +justify-content(space-around)
@@ -92,6 +92,9 @@
     opacity: 0.5
     +position(absolute, -8px null null -60px)
 
+    svg
+      +size(50px)
+      
     path
       fill: rgba(0,0,0,0.4)
 
